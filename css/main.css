@@ -65,10 +65,10 @@ section { padding: 4em 2em }
 
 strong { font-weight: var(--fw-bold) }
 
-/* :focus {
+:focus {
     outline: 3px solid var(--clr-accent);
     outline-offset: 4px;
-} */
+}
 
 img {
     width: 250px;
@@ -103,7 +103,7 @@ ul { line-height: 250% }
 }
 
 .btn:hover,
-.btn:focus-within {
+.btn:focus {
     transform: scale(1.1);
     background-color: var(--clr-accent);
     outline: solid 4px var(--clr-dark);
